@@ -3173,7 +3173,7 @@ textarea.form-control-lg {
 }
 
 .btn-dark {
-  color: #10ec3c;
+  color: #848584;
   background-color: #212529;
   border-color: #212529;
 }
@@ -11277,8 +11277,15 @@ header.masthead .masthead-heading {
     padding: 0 100px 20px 20px;
   }
 }
+.contacts{
+  text-align: center;
+}
+.contacts p{
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
 .team-member {
-  margin-bottom: 3rem;
   text-align: center;
 }
 .team-member img {
