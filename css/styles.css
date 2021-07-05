@@ -11281,10 +11281,26 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .contacts p{
-  margin-bottom: 0;
+  margin-bottom: 5px;
   margin-top: 10px;
 }
+.contacts li:nth-child(1){
+  margin-bottom: 5px;
+  margin-top : 5px;
+  list-style-image: url("../assets/img/voiture/phone.png");
+}
+.contacts li:nth-child(2){
+  list-style-image: url("../assets/img/voiture/mail.png");
+}
+.contacts img{
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
+.col-lg-4 img{
+  margin-right: 10px;
+  margin-left: 10px;
+}
 .team-member {
   text-align: center;
 }
